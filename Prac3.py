@@ -1,5 +1,4 @@
 import concurrent.futures
-import math
 
 def parallel_reduce(data, func, identity):
     while len(data) > 1:
